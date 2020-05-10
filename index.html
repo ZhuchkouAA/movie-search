@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movie Search</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/css/swiper.min.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="justify-content-between navbar navbar-expand-lg navbar-dark bg-dark">
+      <h4><a href="#">Movie search</a></h4>
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="watch-list nav-link" href="#">Watch list<span class="sr-only">(current)</span></a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <main class="main">
+    <form class="form">
+      <fieldset class="field">
+        <legend>Search</legend>
+        <div class="form-group">
+          <span class="clear-textarea"></span>
+          <button type="button" class="keyboard btn btn-outline-primary">клавиатура</button>
+          <button type="button" class="search btn btn-outline-primary">поиск</button>
+        </div>
+      </fieldset>
+    </form>
+    <div class="result-searching"></div>
+    <div class="swiper-container smooth-animation">
+      <div class="swiper-wrapper">
+      </div>
+
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+
+      <div class="swiper-lazy-preloader disable"></div>
+    </div>
+  </main>
+  <footer class="footer">
+    <span><a href="rs.school"><img src="./assets/img/rs-school.png" alt="rs-school pic"></a></span>
+    <span><a href="https://github.com/ZhuchkouAA"><img src="./assets/img/github.png" alt="github pic"></a></span>
+  </footer>
+  <script src="https://unpkg.com/swiper/js/swiper.min.js"></script>
+<script src="app.bundle.js"></script></body>
+</html>
