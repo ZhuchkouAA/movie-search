@@ -1,0 +1,142 @@
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container-keyboard {
+  position: absolute;
+  z-index: 2;
+  top: 140px;
+  right: 140px;
+
+  width: 700px;
+  margin: 0 auto;
+
+  border: 1px solid black;
+  background-color: #999999;
+}
+
+.text {
+  position: absolute;
+  z-index: 2;
+  top: 100px;
+  left: 218px;
+
+  margin-top: 20px;
+  padding: 0 5px;
+
+  text-align: center;
+
+  color: black;
+  background-color: gray;
+}
+
+.key {
+  font-family: "Times New Roman",  serif;
+  line-height: 40px;
+
+  display: inline-block;
+
+  height: 40px;
+  margin: 2px;
+
+  cursor: pointer;
+  user-select: none;
+  transition: border-radius 0.1s, background-color 0.1s;
+  text-align: center;
+  vertical-align: middle;
+
+  border-radius: 2px;
+}
+
+.key:hover {
+  opacity: 0.7;
+}
+
+.functional-key {
+  color: white;
+  color: #2a9fd6;
+  background-color: black;
+}
+
+.symbol-key {
+  font-weight: 500;
+
+  width: 40px;
+
+  color: white;
+  color: #2a9fd6;
+  background-color: rgb(94, 90, 90);
+}
+
+#k13 {
+  width: 122px;
+  padding: 0;
+}
+
+#k14 {
+  width: 73px;
+  padding: 0;
+}
+
+#k28 {
+  width: 45px;
+  padding: 0;
+}
+
+#k29,
+#k42 {
+  width: 101px;
+}
+
+#k41,
+#k54 {
+  width: 105px;
+}
+
+#k53,
+#k60,
+#k61,
+#k62 {
+  background-color: black;
+}
+
+#k55,
+#k63 {
+  width: 60px;
+}
+
+#k56 {
+  width: 63px;
+}
+
+#k57,
+#k59 {
+  width: 57px;
+}
+
+#k58 {
+  display: inline-block;
+
+  width: 245px;
+
+  color: white;
+}
+
+.animation {
+  border-radius: 30%;
+  background-color: #861313;
+}
+
+.active {
+  background-color: #861313;
+}
+
+.selection {
+  color: rgb(184, 31, 31);
+}
+
+.textarea {
+  max-height: 35px;
+}
